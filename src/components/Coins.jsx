@@ -46,7 +46,7 @@ const Coins = () => {
            </div>
           { 
             coins.filter((data)=>{
-               if(data == ''){
+               if(data === ''){
                 return data
                } else if(data.name.toLowerCase().includes(search.toLowerCase())){
                    return data
